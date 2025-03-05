@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "binding-tech",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Helloworld": "node dist/helloworld/server/server.mjs"
+    "serve:ssr:BindingTech": "node dist/binding-tech/server/server.mjs"
   },
   "private": true,
   "dependencies": {

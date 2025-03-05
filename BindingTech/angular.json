@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Helloworld": {
+    "BindingTech": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/helloworld",
+            "outputPath": "dist/binding-tech",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Helloworld:build:production"
+              "buildTarget": "BindingTech:build:production"
             },
             "development": {
-              "buildTarget": "Helloworld:build:development"
+              "buildTarget": "BindingTech:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "0dcbafd9-791c-4b7b-9e15-5a9109f05d57"
+    "analytics": "5e55ab3f-d5a8-4c92-862b-3fe0c72acd9b"
   }
 }
