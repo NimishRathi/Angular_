@@ -34,3 +34,4 @@ export class AppComponent {
     this.nameError = "Name is incorrect!";
   }
 }
+

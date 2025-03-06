@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LaunchBridgeLabz": {
+    "UserInputEntity": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/launch-bridge-labz",
+            "outputPath": "dist/user-input-entity",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,12 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -64,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "LaunchBridgeLabz:build:production"
+              "buildTarget": "UserInputEntity:build:production"
             },
             "development": {
-              "buildTarget": "LaunchBridgeLabz:build:development"
+              "buildTarget": "UserInputEntity:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +94,6 @@
     }
   },
   "cli": {
-    "analytics": "d52f98e1-a1ec-406b-8b27-450c480c31f8"
+    "analytics": "70e0a43d-0e03-4f31-b3ae-6512b60d867b"
   }
 }
